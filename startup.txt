@@ -1,0 +1,1 @@
+geth --identity "customdappnode" --rpc --rpcaddr localhost --rpcport 8545 --rpcapi "db,eth,net,web3,personal,miner,admin" --rpccorsdomain "http://localhost:8000" --datadir "f:\blockchain" --port "30301" --networkid 10101010 --syncmode fast --cache 1024 --pprof
